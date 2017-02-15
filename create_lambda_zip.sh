@@ -15,7 +15,9 @@ rm create_lambda_zip.sh
 rm requirements.txt
 rm README.rst
 rm setup.py
+rm .gitignore
 rm -Rf .idea
+rm -Rf .git
 
 zip -r9 /tmp/bundle.zip *
 cd $path_to_libs
